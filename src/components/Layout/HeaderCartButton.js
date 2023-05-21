@@ -6,7 +6,6 @@ import CartContext from "../../context/cart-context";
 
 const HeaderCartButton = ({onClick}) => {
 	const value = useContext(CartContext);
-	console.log(value.items.length);
 	return (
 		<button className={styles.button} onClick={onClick}>
 			<span className={styles.icon}>
